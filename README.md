@@ -323,8 +323,6 @@ git push origin feature/your-feature-name
 
 ## 📄 License
 
-## 📄 License
-
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ---
 
