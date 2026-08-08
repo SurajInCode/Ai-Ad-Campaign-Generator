@@ -32,6 +32,30 @@ const campaignSchema = new mongoose.Schema({
     required: true,
     trim: true,
   },
+  visualStyle: {
+    type: String,
+    default: 'Studio',
+    trim: true,
+  },
+  background: {
+    type: String,
+    default: 'White seamless',
+    trim: true,
+  },
+  lighting: {
+    type: String,
+    default: 'Soft studio',
+    trim: true,
+  },
+  imageEngine: {
+    type: String,
+    enum: ['huggingface', 'local'],
+    default: 'huggingface',
+  },
+  hasProductReference: {
+    type: Boolean,
+    default: false,
+  },
   marketingCopy: {
     type: marketingCopySchema,
     required: true,
@@ -40,6 +64,19 @@ const campaignSchema = new mongoose.Schema({
     type: String,
     required: true,
     trim: true,
+  },
+  negativePrompt: {
+    type: String,
+    default: '',
+    trim: true,
+  },
+  imageVariants: {
+    type: [String],
+    default: [],
+  },
+  selectedImageIndex: {
+    type: Number,
+    default: 0,
   },
   generatedImageUrl: {
     type: String,
