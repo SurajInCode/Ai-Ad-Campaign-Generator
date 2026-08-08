@@ -69,9 +69,14 @@
 
 <div align="center">
 
-![Campaign Builder Dashboard](./screenshots/dashboard.png.png)
+<img
+  src="./screenshots/dashboard.png.png"
+  alt="Campaign Builder Dashboard"
+  width="820"
+  style="max-width: 100%; height: auto; display: block; margin: 0 auto; border-radius: 12px; border: 1px solid #1e293b;"
+/>
 
-*Split-screen dark console — product specs feed directly into the dual-stage AI pipeline.*
+<p><em>Split-screen dark console — product specs feed directly into the dual-stage AI pipeline.</em></p>
 
 </div>
 
@@ -104,9 +109,14 @@
 
 <div align="center">
 
-![FLUX Synthesized Output](./screenshots/campaign-image.png)
+<img
+  src="./screenshots/campaign-image.png"
+  alt="FLUX Synthesized Output"
+  width="820"
+  style="max-width: 100%; height: auto; display: block; margin: 0 auto; border-radius: 12px; border: 1px solid #1e293b;"
+/>
 
-*Platform copy + AI-synthesized promo visual — saved to MongoDB and reloadable from history.*
+<p><em>Platform copy + AI-synthesized promo visual — saved to MongoDB and reloadable from history.</em></p>
 
 </div>
 
